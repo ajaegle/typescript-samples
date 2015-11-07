@@ -1,3 +1,4 @@
 src/*.js
+bundle.js
 typings/
 node_modules/
