@@ -6,10 +6,7 @@ function calcAggregate(data, extr, agg, initial) {
   }, initial);
 }
 
-function extractItemValue(item) {
-  return item.value;
-}
-
+function extractItemValue(item) { return item.value; }
 function add(a, b) { return a + b }
 function multiply(a, b) { return a * b }
 
