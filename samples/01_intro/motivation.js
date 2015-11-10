@@ -2,12 +2,10 @@ function calcAggregate(data, extr, agg, initial) {
   return data.reduce(function(prev, item) {
     return agg(prev, extr(item))
   }, initial);
-  // TODO remove return statement, using reduce
 }
 
 function extractItemValue(item) {
-  // TODO item.value
-  return item.val;
+  return item.value;
 }
 
 function add(a, b) { return a + b }
