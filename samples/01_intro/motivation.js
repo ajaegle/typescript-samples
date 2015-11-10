@@ -1,5 +1,5 @@
 function calcAggregate(data, extr, agg, initial) {
-  return data.reduce(function(prev, item) {
+  data.reduce(function(prev, item) {
     return agg(prev, extr(item))
   }, initial);
 }
