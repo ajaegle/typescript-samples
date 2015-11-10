@@ -1,3 +1,5 @@
+var LiveReloadPlugin = require('webpack-livereload-plugin');
+
 module.exports = {
   entry: './src/app.ts',
   output: {
@@ -10,5 +12,8 @@ module.exports = {
     loaders: [
       { test: /\.ts$/, loader: 'ts-loader' }
     ]
-  }
+  },
+  plugins: [
+    new LiveReloadPlugin({appendScriptTag:true})
+  ]
 }
