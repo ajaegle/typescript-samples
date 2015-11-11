@@ -13,6 +13,4 @@ namespace basics_inferred {
 
   var unsure: any = 1337;
   unsure = "i'm a string";
-
-  //console.log("", age, name, vip, emails, unsure)
 }
