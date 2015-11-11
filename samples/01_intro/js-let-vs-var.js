@@ -24,3 +24,20 @@ if(true) {
 }
 
 console.log("after if block", a, b);
+
+console.log("---");
+
+var items = [1,2,3,4]
+for (var i = 0; i < items.length; i++) {
+  setTimeout(function () {
+    console.log("logging item with index %d using var, %s: %s", i, items, items[i]);
+  }, 10);
+}
+
+// the same sample with let
+
+for (let i = 0; i < items.length; i++) {
+  setTimeout(function () {
+    console.log("logging item with index %d using let, %s: %s", i, items, items[i]);
+  }, 10);
+}
