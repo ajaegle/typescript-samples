@@ -1,3 +1,4 @@
+/* tslint:disable:no-unused-variable no-var-keyword use-strict */
 namespace basics {
   var age: number;
   var name: string;
