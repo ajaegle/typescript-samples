@@ -1,7 +1,6 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "module": "commonjs",
         "moduleResolution": "node",
         "isolatedModules": false,
         "jsx": "react",
@@ -28,10 +27,10 @@
         "05_functions.ts",
         "06_classes.ts",
         "07_decorated.ts",
+        "08_namespaces.ts",
         "destructuring.ts",
         "generics-2.ts",
         "generics.ts",
-        "interfaces-2.ts",
         "motivation-solved.ts"
     ],
     "exclude": []
