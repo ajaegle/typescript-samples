@@ -4,9 +4,6 @@ namespace basics {
   var name: string;
   var vip: boolean;
   var emails: string[];
-
-  type mystr = string;
-  var surname: mystr;
 }
 
 namespace basics_inferred {
@@ -17,4 +14,14 @@ namespace basics_inferred {
 
   var unsure: any = 1337;
   unsure = "i'm a string";
+}
+
+namespace basics_typedefs {
+  type mystr = string;
+  var surname: mystr;
+
+  type stringOrStrings = string | string[];
+  var akas: stringOrStrings;
+  akas = "single";
+  akas = ["first", "second"];
 }
