@@ -28,10 +28,8 @@
         "06_classes.ts",
         "07_decorated.ts",
         "08_namespaces.ts",
-        "destructuring.ts",
-        "generics-2.ts",
-        "generics.ts",
-        "motivation-solved.ts"
+        "09_generics.ts",
+        "10_destructuring.ts"
     ],
     "exclude": []
 }
