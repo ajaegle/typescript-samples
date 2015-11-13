@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "suppressExcessPropertyErrors": true
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "!node_modules/**"
+    ],
+    "files": [
+        "01_basics.ts",
+        "02_enums.ts",
+        "03_casting.ts",
+        "class-1.ts",
+        "class-with-functions.ts",
+        "decorated.ts",
+        "destructuring.ts",
+        "functions.ts",
+        "generics-2.ts",
+        "generics.ts",
+        "interfaces-1.ts",
+        "interfaces-2.ts",
+        "motivation-solved.ts"
+    ],
+    "exclude": []
+}
