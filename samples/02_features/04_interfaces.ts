@@ -43,7 +43,7 @@ namespace interfaces2sample {
 }
 
 
-namespace interfaces4sample {
+namespace interfaces3sample {
   "use strict";
 
   interface Measurement {
@@ -71,4 +71,48 @@ namespace interfaces4sample {
   for (let m of measurements) {
     console.log(`Measurement ${m.id} with key ${m.key} has value ${m.value}`);
   }
+}
+
+namespace interfaces4sample {
+  "use strict";
+
+  interface ServerResponse {
+    status: number;
+    body: string;
+  }
+
+  interface Headers {
+    [x: string]: string;
+  }
+
+  interface ServerRequest {
+    url: string;
+    headers: Headers;
+  }
+
+  type ServerCall = (req: ServerRequest) => ServerResponse;
+
+  interface HttpService {
+    getResource: ServerCall;
+  }
+
+  class MyHttpService implements HttpService {
+    getResource = (req) => {
+      return {
+        status: 200,
+        body: "the response body"
+      };
+    };
+  }
+
+  var req: ServerRequest = {
+    url: "http://localhost:3000",
+    headers: {"Accept": "text/plain"}
+  };
+
+  var service = new MyHttpService();
+  let response = service.getResource(req);
+  console.log("Status:", response.status);
+  console.log("Payload:", response.body);
+  // response.cookies; // Property cookies does not exist
 }
