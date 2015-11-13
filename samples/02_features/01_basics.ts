@@ -4,6 +4,7 @@ namespace basics {
   var name: string;
   var vip: boolean;
   var emails: string[];
+  var additionals: Object;
 }
 
 namespace basics_inferred {
@@ -11,6 +12,7 @@ namespace basics_inferred {
   var name = "John Doe";
   var vip = false;
   var emails = ["john@doe.com"];
+  var additionals = {};
 
   var unsure: any = 1337;
   unsure = "i'm a string";
