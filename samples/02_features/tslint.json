@@ -81,7 +81,7 @@
       "double",
       "avoid-escape"
     ],
-    "radix": true,
+    "radix": false,
     "semicolon": true,
     "switch-default": true,
     "trailing-comma": [
@@ -114,7 +114,7 @@
       }
     ],
     "use-strict": [
-      true,
+      false,
       "check-module",
       "check-function"
     ],
