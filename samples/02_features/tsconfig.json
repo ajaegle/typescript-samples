@@ -27,7 +27,7 @@
         "04_interfaces.ts",
         "05_functions.ts",
         "06_classes.ts",
-        "decorated.ts",
+        "07_decorated.ts",
         "destructuring.ts",
         "generics-2.ts",
         "generics.ts",
