@@ -4,6 +4,9 @@ namespace basics {
   var name: string;
   var vip: boolean;
   var emails: string[];
+
+  type mystr = string;
+  var surname: mystr;
 }
 
 namespace basics_inferred {
