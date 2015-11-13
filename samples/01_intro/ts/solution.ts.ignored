@@ -1,0 +1,16 @@
+Object.defineProperty(window, "myProp", {"value": "booyah", writable: false});
+
+function distance() {
+  var distance = parseInt(document.getElementById("distance").textContent);
+  if (distance > 100) {
+    document.getElementById("longDistanceWarn").setAttribute("hidden", "false");
+  }
+  return distance;
+}
+
+function updateCosts() {
+  var costs = (distance() * 0.01) + 10;
+  document.querySelectorAll(".costs")[0].textContent = costs.toString();
+}
+
+document.getElementById("calcButton").addEventListener("click", updateCosts);
