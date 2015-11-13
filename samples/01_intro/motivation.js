@@ -10,8 +10,9 @@ function distance() {
   return distance;
 }
 
-function calcCosts() {
+function updateCosts() {
   costs = (distance * 0.01) + 10;
+  document.querySelectorAll(".costs").textContent = costs;
 }
 
-document.getElementById("calcButton").addEventListener(calcCosts, "click");
+document.getElementById("calcButton").addEventListener(updateCosts, "click");
