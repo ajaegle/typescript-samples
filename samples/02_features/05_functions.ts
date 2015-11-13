@@ -51,3 +51,17 @@ namespace functions2sample {
 
   addEventListener(handler);
 }
+
+namespace arrowfunctionssample {
+  "use strict";
+
+  let squareIt = (n: number) => {
+    return n * n;
+  };
+
+  // implicit return if expression
+  let sq = (n: number) => n * n;
+
+  let logit = (s: string) => console.log(s);
+  let isEven = (n: number) => n % 2 === 0;
+}
