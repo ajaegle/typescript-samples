@@ -1,6 +1,12 @@
 # TypeScript Samples
 
-This repository holds all code samples used for the talk "TypeScript - the better JavaScript" given at GDG DevFest Karlsruhe 2015.
+This repository provides sample projects for applications built with TypeScript.
+
+## Slides
+
+These code samples have initially been created for the talk "TypeScript - the better JavaScript?" given at GDG DevFest Karlsruhe 2015.
+
+The slides for the corresponding presentation can be found at [Google Docs](https://docs.google.com/presentation/d/17GTEUJOV-dJRBRyr2TPWRHHq1uwt1fVae6cB1ZfMEgg/pub?start=false&loop=false&delayms=3000) or as exported [PDF](./slides.pdf) in this repository.
 
 ## Projects listed in this repository
 
@@ -20,4 +26,4 @@ This repository holds all code samples used for the talk "TypeScript - the bette
 
 ## Contact
 
-If something isn't working for you or some of the samples require more documentation, please ping me here or twitter @ajaegle.
+If something isn't working for you or some of the samples require more documentation, please ping me here or twitter [@ajaegle](https://twitter.com/ajaegle).
