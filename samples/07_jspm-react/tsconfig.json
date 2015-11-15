@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "isolatedModules": false,
+    "jsx": "react",
+    "module": "system",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es5",
+    "outDir": "built"
+  },
+  "exclude": [],
+  "files": [
+    "typings/react-dom/react-dom.d.ts",
+    "typings/react/react.d.ts",
+    "typings/tsd.d.ts",
+    "src/app.tsx"
+  ],
+  "filesGlob": [
+    "**/*.ts",
+    "**/*.tsx",
+    "!node_modules/**",
+    "!jspm_packages/**"
+  ]
+}

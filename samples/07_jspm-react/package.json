@@ -1,0 +1,24 @@
+{
+  "name": "jspm-react-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ajaegle",
+  "license": "MIT",
+  "devDependencies": {
+    "jspm": "^0.16.13",
+    "serve": "^1.4.0"
+  },
+  "jspm": {
+    "dependencies": {
+      "react": "npm:react@^0.14.1",
+      "react-dom": "npm:react-dom@^0.14.1"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}
