@@ -12,6 +12,7 @@
     "!node_modules/**"
   ],
   "files": [
+    "src/another.ts",
     "src/index.ts",
     "src/main.ts",
     "typings/angularjs/angular.d.ts",
