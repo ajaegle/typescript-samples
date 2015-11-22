@@ -1,0 +1,17 @@
+{
+  "name": "angular-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ajaegle",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.8"
+  },
+  "devDependencies": {
+    "serve": "^1.4.0"
+  }
+}
