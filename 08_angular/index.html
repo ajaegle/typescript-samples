@@ -5,9 +5,20 @@
     <title>angular sample</title>
     <script type="text/javascript" src="node_modules/angular/angular.js"></script>
     <script type="text/javascript" src="built/bundled.js"></script>
+    <style type="text/css">
+      .frame {
+        border: 1px solid black;
+        margin: 5px;
+        padding: 5px;
+      }
+      h1 {
+        font-size: 14px;
+      }
+    </style>
   </head>
   <body ng-app="sampleapp">
-    <div ng-controller="MainCtrl as main">
+    <div class="frame" ng-controller="MainCtrl as main">
+      <h1>simple controller</h1>
       <div>
         <input type="text" ng-model="main.msg">
       </div>
@@ -15,7 +26,8 @@
         {{ main.getFormattedMsg() }}
       </div>
     </div>
-    <div ng-controller="AnotherCtrl as another">
+    <div class="frame" ng-controller="AnotherCtrl as another">
+      <h1>another simple controller</h1>
       <div>
         {{ another.msg }}
       </div>
