@@ -2,7 +2,10 @@ namespace component {
 
   export function SomeComponent() {
     return {
-      scope: {},
+      scope: {
+        greeting: "="
+      },
+      bindToController: true,
       controller: ComponentCtrl,
       controllerAs: "componentctrl",
       template: `
@@ -10,6 +13,7 @@ namespace component {
           <div>
             <input type="text" ng-model="componentctrl.msg"/>
           </div>
+          Greeting: {{componentctrl.greeting}}<br/>
           Message: {{componentctrl.msg}}
         </div>
       `
@@ -17,6 +21,7 @@ namespace component {
   }
 
   class ComponentCtrl {
-    msg = "hello from component";
+    greeting: string;
+    msg = "initial message from component";
   }
 }
