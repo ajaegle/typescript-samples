@@ -6,7 +6,12 @@ namespace component {
       controller: ComponentCtrl,
       controllerAs: "componentctrl",
       template: `
-        <div>{{componentctrl.msg}}</div>
+        <div>
+          <div>
+            <input type="text" ng-model="componentctrl.msg"/>
+          </div>
+          Message: {{componentctrl.msg}}
+        </div>
       `
     };
   }
